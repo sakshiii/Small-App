@@ -6,6 +6,6 @@ router.get('/',(req,res)=>{
     res.send('Hiiiii Boooo')
 })
 router.post('/signup',(req,res)=>{
-     console.log(req.body.name)
+     console.log(req.body)
 })
 module.exports= router;
